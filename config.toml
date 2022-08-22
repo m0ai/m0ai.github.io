@@ -1,0 +1,5 @@
+baseURL = 'https://m0ai.github.io/'
+languageCode = 'en-us'
+title = "m0ai's blog"
+theme = "loveIt"
+publishDir = "docs"
