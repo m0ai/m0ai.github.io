@@ -3,3 +3,29 @@ languageCode = 'en-us'
 title = "m0ai's blog"
 theme = "loveIt"
 publishDir = "public"
+
+[permalinks]
+posts = '/:year/:month/:title/'
+
+[params]
+gitRepo = "github.com/m0ai/m0ai.github.io"
+dateFormat = "2006-01-02"
+title = "My cool site2"
+description = "This is my cool site2"
+
+[params.header]
+[params.header.title]
+name = "m0ai's blog"
+
+[params.home]
+[params.home.profile]
+enable = true
+gravatarEmail = "frozenmoai@gmail.com"
+avatarURL = "https://s.gravatar.com/avatar/638c1f6fd0544a1c9ef3f74984cecedd?s=80"
+title = 'fmt.Println("Hello World, I`m 영준")'
+subtitle = "SRE 엔지니어로 스타트업에서 근무하고 있습니다. 반가워요. :)"
+
+
+[params.social]
+GitHub = "github.com/m0ai"
+Email = "frozenmoai@gmail.com"
